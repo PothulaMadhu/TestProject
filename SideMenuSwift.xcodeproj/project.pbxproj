@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		2C18F4332080E0CB00E98F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F4322080E0CB00E98F0F /* AppDelegate.swift */; };
-		2C18F4352080E0CB00E98F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F4342080E0CB00E98F0F /* ViewController.swift */; };
 		2C18F4382080E0CB00E98F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C18F4362080E0CB00E98F0F /* Main.storyboard */; };
 		2C18F43A2080E0CB00E98F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C18F4392080E0CB00E98F0F /* Assets.xcassets */; };
 		2C18F43D2080E0CB00E98F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C18F43B2080E0CB00E98F0F /* LaunchScreen.storyboard */; };
+		2C18F44A2080E48E00E98F0F /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F4492080E48E00E98F0F /* SSASideMenu.swift */; };
+		2C18F44D2080E51E00E98F0F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F44C2080E51E00E98F0F /* HomeVC.swift */; };
+		2C18F4522080E56300E98F0F /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F4512080E56300E98F0F /* LeftMenuViewController.swift */; };
+		2C18F4542080E6F500E98F0F /* SSASideMenuCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C18F4532080E6F500E98F0F /* SSASideMenuCover.png */; };
+		2C18F4572080EA1600E98F0F /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F4562080EA1600E98F0F /* CalendarVC.swift */; };
+		2C1978EC2084848D005A8A6A /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978EB2084848D005A8A6A /* FavouritesVC.swift */; };
+		2C1978EF208484DB005A8A6A /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978EE208484DB005A8A6A /* Contacts.swift */; };
+		2C1978F2208484FC005A8A6A /* TopRatedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978F1208484FC005A8A6A /* TopRatedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C18F42F2080E0CB00E98F0F /* SideMenuSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C18F4322080E0CB00E98F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C18F4342080E0CB00E98F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C18F4372080E0CB00E98F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C18F4392080E0CB00E98F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C18F43C2080E0CB00E98F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C18F43E2080E0CB00E98F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C18F4492080E48E00E98F0F /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		2C18F44C2080E51E00E98F0F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2C18F4512080E56300E98F0F /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		2C18F4532080E6F500E98F0F /* SSASideMenuCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSASideMenuCover.png; sourceTree = "<group>"; };
+		2C18F4562080EA1600E98F0F /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		2C1978EB2084848D005A8A6A /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		2C1978EE208484DB005A8A6A /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		2C1978F1208484FC005A8A6A /* TopRatedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,109 @@
 		2C18F4312080E0CB00E98F0F /* SideMenuSwift */ = {
 			isa = PBXGroup;
 			children = (
-				2C18F4322080E0CB00E98F0F /* AppDelegate.swift */,
-				2C18F4342080E0CB00E98F0F /* ViewController.swift */,
+				2C18F4472080E0F500E98F0F /* Helpers */,
+				2C18F4462080E0EC00E98F0F /* Models */,
+				2C18F4452080E0E200E98F0F /* Views */,
+				2C18F4442080E0D100E98F0F /* Controllers */,
 				2C18F4362080E0CB00E98F0F /* Main.storyboard */,
 				2C18F4392080E0CB00E98F0F /* Assets.xcassets */,
 				2C18F43B2080E0CB00E98F0F /* LaunchScreen.storyboard */,
 				2C18F43E2080E0CB00E98F0F /* Info.plist */,
+				2C18F4532080E6F500E98F0F /* SSASideMenuCover.png */,
 			);
 			path = SideMenuSwift;
+			sourceTree = "<group>";
+		};
+		2C18F4442080E0D100E98F0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C1978F0208484E2005A8A6A /* TopRated */,
+				2C1978ED2084849D005A8A6A /* Contacts */,
+				2C1978EA20848468005A8A6A /* Favourites */,
+				2C18F4552080E9F600E98F0F /* CalendarVC */,
+				2C18F44E2080E52600E98F0F /* MenuVC */,
+				2C18F44B2080E50000E98F0F /* HomeVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C18F4452080E0E200E98F0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C18F4462080E0EC00E98F0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F4322080E0CB00E98F0F /* AppDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C18F4472080E0F500E98F0F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F4482080E12F00E98F0F /* CustomClasses */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C18F4482080E12F00E98F0F /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F4492080E48E00E98F0F /* SSASideMenu.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		2C18F44B2080E50000E98F0F /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F44C2080E51E00E98F0F /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		2C18F44E2080E52600E98F0F /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F4512080E56300E98F0F /* LeftMenuViewController.swift */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		2C18F4552080E9F600E98F0F /* CalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C18F4562080EA1600E98F0F /* CalendarVC.swift */,
+			);
+			path = CalendarVC;
+			sourceTree = "<group>";
+		};
+		2C1978EA20848468005A8A6A /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				2C1978EB2084848D005A8A6A /* FavouritesVC.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		2C1978ED2084849D005A8A6A /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				2C1978EE208484DB005A8A6A /* Contacts.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		2C1978F0208484E2005A8A6A /* TopRated */ = {
+			isa = PBXGroup;
+			children = (
+				2C1978F1208484FC005A8A6A /* TopRatedVC.swift */,
+			);
+			path = TopRated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +235,7 @@
 				2C18F43D2080E0CB00E98F0F /* LaunchScreen.storyboard in Resources */,
 				2C18F43A2080E0CB00E98F0F /* Assets.xcassets in Resources */,
 				2C18F4382080E0CB00E98F0F /* Main.storyboard in Resources */,
+				2C18F4542080E6F500E98F0F /* SSASideMenuCover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C18F4352080E0CB00E98F0F /* ViewController.swift in Sources */,
+				2C18F4572080EA1600E98F0F /* CalendarVC.swift in Sources */,
+				2C18F44D2080E51E00E98F0F /* HomeVC.swift in Sources */,
+				2C1978EC2084848D005A8A6A /* FavouritesVC.swift in Sources */,
 				2C18F4332080E0CB00E98F0F /* AppDelegate.swift in Sources */,
+				2C18F4522080E56300E98F0F /* LeftMenuViewController.swift in Sources */,
+				2C18F44A2080E48E00E98F0F /* SSASideMenu.swift in Sources */,
+				2C1978EF208484DB005A8A6A /* Contacts.swift in Sources */,
+				2C1978F2208484FC005A8A6A /* TopRatedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

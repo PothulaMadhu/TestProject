@@ -1,25 +1,21 @@
 //
-//  ViewController.swift
+//  Contacts.swift
 //  SideMenuSwift
 //
-//  Created by Madhusudan Reddy on 13/04/18.
+//  Created by Madhusudan Reddy on 16/04/18.
 //  Copyright © 2018 Madhusudan Reddy. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class Contacts: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
