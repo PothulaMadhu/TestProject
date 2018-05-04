@@ -35,7 +35,7 @@ class HomeVC: UIViewController, UITabBarDelegate {
         if tabBar.tag == 0 {
             var vc: UIViewController? = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
             
-            UINavigationController.sharedInstance.popToRootAndSwitch(to: vc, withSlideOutAnimation: true, andCompletion: nil)
+          // UINavigationController.sharedInstance.popToRootAndSwitch(to: vc, with SlideOutAnimation: true, andCompletion: nil)
         }else if tabBar.tag == 1
         {
             

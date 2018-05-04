@@ -12,7 +12,7 @@ class TopRatedVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Top"
     }
 
     override func didReceiveMemoryWarning() {
