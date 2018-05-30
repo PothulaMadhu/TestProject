@@ -19,9 +19,12 @@
 		2C1978EC2084848D005A8A6A /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978EB2084848D005A8A6A /* FavouritesVC.swift */; };
 		2C1978EF208484DB005A8A6A /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978EE208484DB005A8A6A /* Contacts.swift */; };
 		2C1978F2208484FC005A8A6A /* TopRatedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1978F1208484FC005A8A6A /* TopRatedVC.swift */; };
+		2C1993E020BECEB20061DB4E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1993E120BECEB20061DB4E /* Alamofire.framework */; };
+		41C1176A8BF14ACA715DDF44 /* Pods_SideMenuSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4546F70513AEE0B95A8BCC9A /* Pods_SideMenuSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B68F8DDFF16B8BA38AEF34 /* Pods-SideMenuSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuSwift/Pods-SideMenuSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		2C18F42F2080E0CB00E98F0F /* SideMenuSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C18F4322080E0CB00E98F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C18F4372080E0CB00E98F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		2C1978EB2084848D005A8A6A /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
 		2C1978EE208484DB005A8A6A /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		2C1978F1208484FC005A8A6A /* TopRatedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedVC.swift; sourceTree = "<group>"; };
+		2C1993E120BECEB20061DB4E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395DA5D79D108EE3CEA7670A /* Pods-SideMenuSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuSwift/Pods-SideMenuSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4546F70513AEE0B95A8BCC9A /* Pods_SideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1993E020BECEB20061DB4E /* Alamofire.framework in Frameworks */,
+				41C1176A8BF14ACA715DDF44 /* Pods_SideMenuSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +62,8 @@
 			children = (
 				2C18F4312080E0CB00E98F0F /* SideMenuSwift */,
 				2C18F4302080E0CB00E98F0F /* Products */,
+				9ED2F52BC3FCDD9BD87E5EF4 /* Pods */,
+				F693A4CC7CB562CBC13DC115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +183,24 @@
 			path = TopRated;
 			sourceTree = "<group>";
 		};
+		9ED2F52BC3FCDD9BD87E5EF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B68F8DDFF16B8BA38AEF34 /* Pods-SideMenuSwift.debug.xcconfig */,
+				395DA5D79D108EE3CEA7670A /* Pods-SideMenuSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F693A4CC7CB562CBC13DC115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993E120BECEB20061DB4E /* Alamofire.framework */,
+				4546F70513AEE0B95A8BCC9A /* Pods_SideMenuSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C18F4412080E0CB00E98F0F /* Build configuration list for PBXNativeTarget "SideMenuSwift" */;
 			buildPhases = (
+				0D83ECE384A79E114794B7F4 /* [CP] Check Pods Manifest.lock */,
 				2C18F42B2080E0CB00E98F0F /* Sources */,
 				2C18F42C2080E0CB00E98F0F /* Frameworks */,
 				2C18F42D2080E0CB00E98F0F /* Resources */,
+				5DCA091430D4E605B1854469 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +270,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D83ECE384A79E114794B7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenuSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCA091430D4E605B1854469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SideMenuSwift/Pods-SideMenuSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideMenuSwift/Pods-SideMenuSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C18F42B2080E0CB00E98F0F /* Sources */ = {
@@ -327,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -378,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -388,11 +457,13 @@
 		};
 		2C18F4422080E0CB00E98F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B68F8DDFF16B8BA38AEF34 /* Pods-SideMenuSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA8AMR83HC;
 				INFOPLIST_FILE = SideMenuSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.black.SideMenuSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,11 +474,13 @@
 		};
 		2C18F4432080E0CB00E98F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395DA5D79D108EE3CEA7670A /* Pods-SideMenuSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA8AMR83HC;
 				INFOPLIST_FILE = SideMenuSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.black.SideMenuSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
